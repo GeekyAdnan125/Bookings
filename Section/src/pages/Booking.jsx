@@ -59,8 +59,6 @@ const Booking = () => {
           ))}
         </div>
       </div>
-
-       
       <Toaster position="top-center" reverseOrder={false} />
     </div>
   );

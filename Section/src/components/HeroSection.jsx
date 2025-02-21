@@ -14,7 +14,7 @@ const images = [
 
 const HeroSection = () => {
   const [index, setIndex] = useState(0);
-  const [loaded, setLoaded] = useState(false); // Track if images are loaded
+  const [loaded, setLoaded] = useState(false);  
 
   useEffect(() => {
     const preloadImages = async () => {

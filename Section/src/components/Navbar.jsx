@@ -17,8 +17,7 @@ const Navbar = () => {
         >
           Voyager
         </Link>
-        
-        {/* Desktop Menu */}
+     
         <ul className="hidden md:flex space-x-8">
           {menuItems.map((item, index) => (
             <li key={index}>
@@ -33,8 +32,7 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        
-        {/* Mobile Menu Button */}
+   
         <button
           className="md:hidden text-white focus:outline-none"
           onClick={() => setMenuOpen(!menuOpen)}
@@ -42,8 +40,7 @@ const Navbar = () => {
           {menuOpen ? <FaTimes size={28} /> : <FaBars size={28} />}
         </button>
       </div>
-      
-      {/* Mobile Menu */}
+ 
       <div
         className={`md:hidden fixed top-0 left-0 w-full h-screen bg-zinc-900 bg-opacity-90 backdrop-blur-md flex flex-col items-center justify-center transform transition-transform duration-300 ${
           menuOpen ? "translate-y-0" : "-translate-y-full"

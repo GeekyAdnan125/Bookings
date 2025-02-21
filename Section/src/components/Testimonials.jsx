@@ -16,7 +16,7 @@ const Testimonials = () => {
       <h2 className="text-4xl font-extrabold text-gray-800">What Our Customers Say</h2>
       <p className="text-gray-600 mt-2">Real experiences from our happy travelers</p>
 
-      {/* Review Cards */}
+       
       <div className="max-w-5xl mx-auto flex overflow-x-auto scrollbar-hide space-x-6 px-4 py-6"
         style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
