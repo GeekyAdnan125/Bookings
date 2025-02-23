@@ -8,7 +8,7 @@ const MapPage = () => {
         src="https://maps.google.com/maps?q=Kolkata&output=embed"
         allowFullScreen
         loading="lazy"
-      ></iframe>
+      >Map</iframe>
     </div>
   );
 };

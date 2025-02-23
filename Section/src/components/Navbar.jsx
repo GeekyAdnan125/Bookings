@@ -6,7 +6,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
 
-  const menuItems = ["Home", "Booking", "Contact", "Map"];
+  const menuItems = ["Home", "Booking", "Contact", "Map", "Weather", "Emergency"];
 
   return (
     <nav className="bg-zinc-800 bg-opacity-90 fixed w-full top-0 z-50 backdrop-blur-md shadow-md">

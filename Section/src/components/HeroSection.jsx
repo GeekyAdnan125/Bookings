@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const images = [
   "https://plus.unsplash.com/premium_photo-1661963643348-e95c6387ee8a?q=100&w=3000&auto=format&fit=crop",
@@ -61,7 +62,12 @@ const HeroSection = () => {
         <p className="text-xl font-medium max-w-3xl">
           Discover your next adventure with the best deals on flights, hotels, and more.
         </p>
-      </div>
+        <Link  to='/explore'
+        className="bg-blue-500 text-white px-6 py-3 rounded-md mt-4 hover:bg-blue-700 transition  duration-300"
+      >
+        Explore
+      </Link>
+      </div>  
     </div>
   );
 };

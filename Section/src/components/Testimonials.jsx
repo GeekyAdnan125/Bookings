@@ -2,8 +2,8 @@ import React from "react";
 import { FaStar } from "react-icons/fa";
 
 const reviews = [
-  { name: "Jadugar Rivu", review: "Amazing experience! Very easy to book flights.", rating: 5 },
-  { name: "Talha Boss", review: "I love the cab booking feature, saved a lot of time!", rating: 4 },
+  { name: "Rivu ", review: "Amazing experience! Very easy to book flights.", rating: 5 },
+  { name: "Talha", review: "I love the cab booking feature, saved a lot of time!", rating: 4 },
   { name: "Rahul Singh", review: "Super fast and smooth train booking system!", rating: 5 },
   { name: "Sneha Das", review: "Great service, had no issues while booking my bus ticket.", rating: 4 },
   { name: "Vikram Singh", review: "The customer support was really helpful and quick!", rating: 5 },
